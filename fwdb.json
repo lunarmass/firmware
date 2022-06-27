@@ -1,1 +1,20 @@
-test
+{
+    "filenamehere": {
+        "PRODUCT": {
+            "hwid": 10001,
+            "hwversion": 0.01
+        },
+        "FIRMWARE": {
+            "fwrelease_name":"developer release",
+            "fwrelease_level":0,
+            "fwdev_branch":"master",
+            "fwversion": 0.01
+        },
+        "RELEASE_DATE": "2022.05.23.01.59.01",
+        "META_DATA": {
+            "fwdescription": "some purpose for release",
+            "fwfeatures_updated": ["ota","something else"],
+            "fwsize": 102400230
+        }
+    }
+}

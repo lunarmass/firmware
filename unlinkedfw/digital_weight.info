@@ -1,0 +1,10 @@
+hwid: 10001
+hwversion: 0.01
+
+fwrelease_name: "developer release"
+fwrelease_level: 0
+fwdev_branch: "master"
+fwversion: 0.01
+
+fwdescription: "some purpose for release"
+fwfeatures_updated: ["ota","something else"]
