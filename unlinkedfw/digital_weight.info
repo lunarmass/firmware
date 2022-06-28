@@ -1,10 +1,10 @@
 hwid: 10001
-hwversion: 0.01
+hwversion_compatability: [[0.01,0.01]]
 
-fwrelease_name: "developer release"
+fwrelease_name: "developer release for ota"
 fwrelease_level: 0
-fwdev_branch: "master"
-fwversion: 0.01
+fwdev_branch: "none"
+fwversion: 0.1
 
-fwdescription: "some purpose for release"
-fwfeatures_updated: ["ota","something else"]
+fwdescription: "initial release of firmware for MK1 hwid 10001"
+fwfeatures_updated: ["ota"]
