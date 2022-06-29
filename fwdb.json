@@ -14,7 +14,7 @@
             ]
         },
         "FIRMWARE": {
-            "fwrelease_name": "developer release",
+            "fwrelease_name": "Pioneer0",
             "fwrelease_level": 0,
             "fwdev_branch": "master",
             "fwversion": 0.0
@@ -40,7 +40,7 @@
             ]
         },
         "FIRMWARE": {
-            "fwrelease_name": "\"developerreleaseforota\"",
+            "fwrelease_name": "\"Pioneer0\"",
             "fwrelease_level": 0,
             "fwdev_branch": "\"none\"",
             "fwversion": 0.1

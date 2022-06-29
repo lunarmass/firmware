@@ -1,7 +1,7 @@
 hwid: 10001
 hwversion_compatability: [[0.01,0.01]]
 
-fwrelease_name: "developer release for ota"
+fwrelease_name: "Pioneer0"
 fwrelease_level: 0
 fwdev_branch: "none"
 fwversion: 0.1
