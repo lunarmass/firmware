@@ -40,13 +40,13 @@
             ]
         },
         "FIRMWARE": {
-            "fwrelease_name": "\"Pioneer0\"",
+            "fwrelease_name": "Pioneer0",
             "fwrelease_level": 0,
-            "fwdev_branch": "\"none\"",
+            "fwdev_branch": "none",
             "fwversion": 0.1
         },
         "META_DATA": {
-            "fwdescription": "\"initial release of firmware for MK1 hwid 10001\"",
+            "fwdescription": "initial release of firmware for MK1 hwid 10001",
             "fwfeatures_updated": [
                 "ota"
             ],
