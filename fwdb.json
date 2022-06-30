@@ -2,7 +2,7 @@
     "templatefilename___0x0": {
         "PRODUCT": {
             "hwid": 10001,
-            "hwversion_compatability": [
+            "hwversion_compatibility": [
                 [
                     0.01,
                     0.01
@@ -32,7 +32,7 @@
     "digital_weight___0x0": {
         "PRODUCT": {
             "hwid": 10001,
-            "hwversion_compatability": [
+            "hwversion_compatibility": [
                 [
                     0.01,
                     0.01
@@ -53,5 +53,30 @@
             "fwsize": 1328224
         },
         "RELEASE_DATE": "2022.06.27.18.20.46"
+    },
+    "digital_weight___0x1": {
+        "PRODUCT": {
+            "hwid": 10001,
+            "hwversion_compatibility": [
+                [
+                    0.02,
+                    0.01
+                ]
+            ]
+        },
+        "FIRMWARE": {
+            "fwrelease_name": "Pioneer0",
+            "fwrelease_level": 0,
+            "fwdev_branch": "none",
+            "fwversion": 0.2
+        },
+        "META_DATA": {
+            "fwdescription": "first working OTA release",
+            "fwfeatures_updated": [
+                "ota"
+            ],
+            "fwsize": 1328752
+        },
+        "RELEASE_DATE": "2022.06.30.08.14.17"
     }
 }

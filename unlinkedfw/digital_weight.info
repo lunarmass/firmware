@@ -1,10 +1,10 @@
 hwid: 10001
-hwversion_compatability: [[0.01,0.01]]
+hwversion_compatibility: [[0.02,0.01]]
 
-fwrelease_name: "Pioneer0"
+fwrelease_name: Pioneer0
 fwrelease_level: 0
-fwdev_branch: "none"
-fwversion: 0.1
+fwdev_branch: none
+fwversion: 0.2
 
-fwdescription: "initial release of firmware for MK1 hwid 10001"
+fwdescription: first working OTA release
 fwfeatures_updated: ["ota"]

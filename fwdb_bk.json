@@ -2,19 +2,56 @@
     "templatefilename___0x0": {
         "PRODUCT": {
             "hwid": 10001,
-            "hwversion_compatability": [[0.01,0.01],[0.03,0.03]]
+            "hwversion_compatibility": [
+                [
+                    0.01,
+                    0.01
+                ],
+                [
+                    0.03,
+                    0.03
+                ]
+            ]
         },
         "FIRMWARE": {
-            "fwrelease_name":"developer release",
-            "fwrelease_level":0,
-            "fwdev_branch":"master",
-            "fwversion": 0.00
+            "fwrelease_name": "Pioneer0",
+            "fwrelease_level": 0,
+            "fwdev_branch": "master",
+            "fwversion": 0.0
         },
         "RELEASE_DATE": "2022.06.27.10.59.01",
         "META_DATA": {
             "fwdescription": "some purpose for release",
-            "fwfeatures_updated": ["ota","something else"],
+            "fwfeatures_updated": [
+                "ota",
+                "something else"
+            ],
             "fwsize": 0
         }
+    },
+    "digital_weight___0x0": {
+        "PRODUCT": {
+            "hwid": 10001,
+            "hwversion_compatibility": [
+                [
+                    0.01,
+                    0.01
+                ]
+            ]
+        },
+        "FIRMWARE": {
+            "fwrelease_name": "Pioneer0",
+            "fwrelease_level": 0,
+            "fwdev_branch": "none",
+            "fwversion": 0.1
+        },
+        "META_DATA": {
+            "fwdescription": "initial release of firmware for MK1 hwid 10001",
+            "fwfeatures_updated": [
+                "ota"
+            ],
+            "fwsize": 1328224
+        },
+        "RELEASE_DATE": "2022.06.27.18.20.46"
     }
 }

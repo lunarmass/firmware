@@ -27,7 +27,7 @@
 #     "filenamehere": {
 #         "PRODUCT": {
 #             "hwid": 10001,
-#             "hwversion_compatability": [[0.01,0.01],[0.03,0.03]]
+#             "hwversion_compatibility": [[0.01,0.01],[0.03,0.03]]
 #         },
 #         "FIRMWARE": {
 #             "fwrelease_name":"developer release",
@@ -74,7 +74,7 @@ class parsefw():
     def __init__(self) -> None:
         self.args = parser.parse_args()
         self.hwid = "not set"
-        self.hwversion_compatability = "not set"
+        self.hwversion_compatibility = "not set"
         self.fwrelease_name = "not set"
         self.fwrelease_level = "not set"
         self.fwdev_branch = "not set"
@@ -84,7 +84,7 @@ class parsefw():
         self.RELEASE_DATE = 0
         self.fwsize = 0
         self.paramdict = {"hwid":self.hwid,
-        "hwversion_compatability":self.hwversion_compatability,
+        "hwversion_compatibility":self.hwversion_compatibility,
         "fwrelease_name":self.fwrelease_name,
         "fwrelease_level":self.fwrelease_name,
         "fwdev_branch":self.fwdev_branch,
@@ -115,7 +115,7 @@ class parsefw():
         if key == "hwid":  
             value = int(string.strip().replace(" ",""))
             self.paramdict[key] = value
-        elif key == "hwversion_compatability":
+        elif key == "hwversion_compatibility":
             value = json.loads(string.strip().replace(" ",""))
             self.paramdict[key] = value
         elif key == "fwrelease_name":
@@ -162,7 +162,7 @@ class parsefw():
             fwidname = fwkey.split('___',1)[0]
             fwidnumber = int(fwkey.split('___',1)[1], 16)
             if fwidname == filename:
-                maxindex = max(maxindex,fwidnumber)
+                maxindex = max(maxindex,fwidnumber+1)
         self.fwkey = "{}___{}".format(filename,hex(maxindex))
         return maxindex
 
@@ -186,7 +186,7 @@ class parsejson():
         tempdict["RELEASE_DATE"] = {}
         
         tempdict["PRODUCT"]["hwid"] = paramdict["hwid"]
-        tempdict["PRODUCT"]["hwversion_compatability"] = paramdict["hwversion_compatability"]
+        tempdict["PRODUCT"]["hwversion_compatibility"] = paramdict["hwversion_compatibility"]
 
         tempdict["FIRMWARE"]["fwrelease_name"] = paramdict["fwrelease_name"]
         tempdict["FIRMWARE"]["fwrelease_level"] = paramdict["fwrelease_level"]
