@@ -4,7 +4,7 @@ hwversion_compatibility: [[0.02,0.01]]
 fwrelease_name: Pioneer0
 fwrelease_level: 0
 fwdev_branch: none
-fwversion: 0.2
+fwversion: 0.21
 
-fwdescription: first working OTA release
-fwfeatures_updated: ["ota"]
+fwdescription: mc torque coef udpate
+fwfeatures_updated: ["tune params"]
